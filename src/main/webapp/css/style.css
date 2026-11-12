@@ -1,0 +1,25 @@
+*{box-sizing:border-box}
+body{font-family:"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:#f4f6f9;color:#222}
+header{background:#0b5ed7;color:#fff;padding:12px 24px;display:flex;justify-content:space-between;align-items:center}
+header a{color:#fff;text-decoration:none;margin-left:16px}
+main{max-width:960px;margin:24px auto;background:#fff;padding:24px 28px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+h2{margin-top:0}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid #d8dde3;padding:8px 10px;text-align:left}
+th{background:#eef2f7}
+td.num,th.num{text-align:right}
+.btn,button{display:inline-block;background:#0b5ed7;color:#fff;border:0;padding:8px 16px;border-radius:5px;cursor:pointer;text-decoration:none;font-size:14px}
+.btn.secondary{background:#6c757d}
+.btn.disabled{background:#b8c0c8;pointer-events:none}
+.menu{display:flex;gap:12px;flex-wrap:wrap}
+.error{background:#fdecea;color:#b3261e;padding:10px 14px;border-radius:5px;margin:12px 0}
+.info{background:#e8f1fd;color:#0a4aa8;padding:10px 14px;border-radius:5px;margin:12px 0}
+.badge{padding:3px 10px;border-radius:12px;background:#e2e8f0;font-size:13px}
+.badge.CHO_DUYET{background:#fff3cd}.badge.DA_DUYET{background:#d1e7dd}
+.badge.DANG_DONG_HANG{background:#cfe2ff}.badge.DA_BAN_GIAO{background:#e0cffc}.badge.DA_GIAO{background:#badbcc}
+label{margin-right:8px}
+input[type=text],input[type=password],input[type=date]{padding:7px 10px;border:1px solid #c5ccd4;border-radius:5px;margin-right:12px}
+form.login{max-width:340px;margin:auto}
+form.login input{width:100%;margin:6px 0 14px}
+dl.info-grid{display:grid;grid-template-columns:160px 1fr;gap:6px 12px}
+dl.info-grid dt{font-weight:600}dl.info-grid dd{margin:0}

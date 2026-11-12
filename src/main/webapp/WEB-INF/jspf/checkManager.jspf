@@ -1,0 +1,8 @@
+<%@ page import="model.Member7" %>
+<%
+    Member7 _me = (Member7) session.getAttribute("member");
+    if (_me == null || !"MANAGER".equals(_me.getRole())) {
+        response.sendRedirect(request.getContextPath() + "/login.jsp");
+        return;
+    }
+%>
